@@ -1,0 +1,19 @@
+{
+  "name": "vedad-site",
+  "version": "1.0.0",
+  "description": "Just a personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VedadM/VedadM.github.io.git"
+  },
+  "author": "Vedad M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VedadM/VedadM.github.io/issues"
+  },
+  "homepage": "https://github.com/VedadM/VedadM.github.io#readme"
+}
