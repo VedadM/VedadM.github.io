@@ -1,4 +1,4 @@
-# vedadm.github.io
+# vedadm
 
 > A Vue.js project
 
