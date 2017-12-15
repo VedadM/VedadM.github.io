@@ -19,3 +19,12 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+```
+Note:
+
+Hacky Fix for single page app routing with 404 redirect to the index.html
+
+Bad? Yes...
+
+```
