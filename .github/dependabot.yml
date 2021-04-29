@@ -1,0 +1,17 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: semver
+    versions:
+    - 7.3.4
+  - dependency-name: eslint-plugin-html
+    versions:
+    - 6.1.1
+  - dependency-name: eslint-plugin-promise
+    versions:
+    - 4.2.1
