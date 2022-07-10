@@ -1,3 +1,3 @@
-# Just a Simple Personal Website
+# Personal Website
 
-Not much to say otherwise :)
+Just a site not more to say about it

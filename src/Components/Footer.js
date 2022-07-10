@@ -1,23 +1,40 @@
-import styled from "styled-components";
+import { SocialIcon } from 'react-social-icons';
+import styled from 'styled-components';
 
-const Footer = () => {
+function Footer() {
   return (
-    <FooterStyle>
-      <CopyRight>Footer stuff goes here</CopyRight>
-    </FooterStyle>
-  );
-};
+    <FooterContainer>
+      <SocialIcon url="https://github.com/VedadM" bgColor="black" target="_blank" />
+      <SocialIcon url="https://www.linkedin.com/in/vedad-muhamedagic-336a5017" bgColor="black" target="_blank"  />
+      <SocialIcon url="https://www.instagram.com/_guy_dude_man_/" bgColor="black" target="_blank"  />
+    </FooterContainer>
+  )
+}
 
 export default Footer;
 
-const FooterStyle = styled.footer`
-  height: 50px;
-  display: grid;
-  background-color: gray;
-  align-items: center;
+const FooterContainer = styled.div`
+  display: flex;
   justify-content: center;
-`;
+  padding: 10px 3vw;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  border-top: 3px solid #e4e4e4;
+  background-color: rgba(255,255,255,0.5);
+  box-sizing: border-box;
 
-const CopyRight = styled.div`
-  color: white
+  @media (min-width: 800px) {
+    padding: 10px 3vw;
+  }
+
+  & a {
+    width: 40px !important;
+    height: 40px !important;
+    margin: 0 2vw;
+
+    @media (min-width: 800px) {
+      margin: 0 10px;
+    }
+  }
 `;
